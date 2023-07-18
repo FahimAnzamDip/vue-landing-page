@@ -1,6 +1,6 @@
 # Landing page made with Tailwind css and Vue js.
 
-### Live URL: https://fahimanzamdip.github.io/vue-landing-page/
+> ### Live URL: https://fahimanzamdip.github.io/vue-landing-page/
 
 ## Local Installation
 - `` git clone https://github.com/FahimAnzamDip/vue-landing-page.git ``
