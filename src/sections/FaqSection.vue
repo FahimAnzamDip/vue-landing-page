@@ -25,7 +25,7 @@ let isOpen = ref(1);
                     </template>
                 </ul>
                 <div class="flex justify-center mt-10">
-                    <a href="#" class="bg-theme-primary px-6 py-2 text-white rounded shadow-md hover:bg-white border-2 border-transparent hover:border-theme-primary hover:text-theme-primary cursor-pointer transition duration-200 font-theme-heading">More FAQs</a>
+                    <LinkButton btn-type="primary" link="#" class="text-sm">More FAQs</LinkButton>
                 </div>
             </div>
         </section>

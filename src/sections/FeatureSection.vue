@@ -36,7 +36,7 @@ let isOpen = ref(1);
                             <h3 class="font-theme-heading text-2xl md:text-3xl font-medium text-center lg:text-left">{{ feature.details.title }}</h3>
                             <p class="mt-7 font-theme-content text-lg text-theme-grayish-blue text-center lg:text-left">{{ feature.details.description }}</p>
                             <div class="flex justify-center lg:justify-start mt-7">
-                                <a :href="feature.details.link" class="font-theme-heading bg-theme-primary px-6 py-2 text-white rounded shadow-md hover:bg-white border-2 border-transparent hover:border-theme-primary hover:text-theme-primary cursor-pointer transition duration-200">More Info</a>
+                                <LinkButton btn-type="primary" :link="feature.details.link">More Info</LinkButton>
                             </div>
                         </div>
                     </div>

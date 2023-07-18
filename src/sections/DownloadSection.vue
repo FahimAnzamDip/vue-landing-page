@@ -1,7 +1,5 @@
 <script setup>
-
-import downloads from '../data/downloads';
-
+import downloads from "../data/downloads";
 </script>
 
 <template>
@@ -13,9 +11,7 @@ import downloads from '../data/downloads';
                 <p class="text-theme-grayish-blue text-center text-lg font-theme-content mt-7">We've got more browsers in pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-                <div v-for="(download, index) in downloads" :key="download.id"
-                    :class="[index === 0 ? 'lg:mb-10' : '', index === 1 ? 'lg:mt-10' : '', index === 2 ? 'lg:mt-20 lg:-mb-10' : '']" 
-                    class="shadow-lg rounded-lg">
+                <div v-for="(download, index) in downloads" :key="download.id" :class="[index === 0 ? 'lg:mb-10' : '', index === 1 ? 'lg:mt-10' : '', index === 2 ? 'lg:mt-20 lg:-mb-10' : '']" class="shadow-lg rounded-lg">
                     <div class="flex justify-center mt-12">
                         <img :src="download.icon" alt="Browser Logo" />
                     </div>
@@ -25,7 +21,7 @@ import downloads from '../data/downloads';
                         <img class="w-full" src="/images/bg-dots.svg" alt="Dot Backaground" />
                     </div>
                     <div class="flex justify-center mb-8">
-                        <a :href="download.link" class="bg-theme-primary px-6 py-2 text-white rounded shadow-md hover:bg-white border-2 border-transparent hover:border-theme-primary hover:text-theme-primary cursor-pointer transition duration-200 text-sm font-theme-heading">Add & Install Extension</a>
+                        <LinkButton btn-type="primary" :link="download.link" class="text-sm">Add & Install Extension</LinkButton>
                     </div>
                 </div>
             </div>
