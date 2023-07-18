@@ -7,7 +7,7 @@
             <div class="grid md:grid-cols-2">
                 <div class="flex flex-col md:flex-row md:space-x-12 items-center">
                     <div class="mb-10 md:mb-0">
-                        <img src="images/logo-bookmark-white.svg" alt="Logo" />
+                        <img src="/images/logo-bookmark-white.svg" alt="Logo" />
                     </div>
                     <ul class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-8 text-xs text-center md:text-left font-theme-heading">
                         <li class="uppercase text-white hover:text-theme-secondary transition duration-200">

@@ -22,7 +22,7 @@ import downloads from '../data/downloads';
                     <h3 class="text-2xl font-theme-heading font-medium text-center mt-6">{{ download.title }}</h3>
                     <p class="text-md font-theme-content text-theme-grayish-blue text-center mt-3">{{ download.subTitle }}</p>
                     <div class="my-7">
-                        <img class="w-full" src="images/bg-dots.svg" alt="Dot Backaground" />
+                        <img class="w-full" src="/images/bg-dots.svg" alt="Dot Backaground" />
                     </div>
                     <div class="flex justify-center mb-8">
                         <a :href="download.link" class="bg-theme-primary px-6 py-2 text-white rounded shadow-md hover:bg-white border-2 border-transparent hover:border-theme-primary hover:text-theme-primary cursor-pointer transition duration-200 text-sm font-theme-heading">Add & Install Extension</a>

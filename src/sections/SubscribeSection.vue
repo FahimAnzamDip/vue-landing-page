@@ -33,7 +33,7 @@ let handleSubmit = () => {
                         <div class="relative w-full lg:mb-0 font-theme-content">
                             <input v-model="email" @input="emailError = false" class="w-full py-3 px-5 text-sm text-gray-600 border-0 shadow-md rounded focus:ring-4 focus:ring-blue-300" type="text" name="newsletter_email" placeholder="Enter your email address" />
                             <div v-show="emailError">
-                                <img class="absolute right-3 top-3" src="images/icon-error.svg" alt="Error Icon" />
+                                <img class="absolute right-3 top-3" src="/images/icon-error.svg" alt="Error Icon" />
                                 <div class="absolute w-full text-xs italic px-2 py-1 bg-theme-secondary text-white rounded">Whosps, make sure it's an email</div>
                             </div>
                         </div>
