@@ -1,7 +1,12 @@
-# Vue 3 + Vite
+# Landing page made with Tailwind css and Vue js.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Live URL: https://fahimanzamdip.github.io/vue-landing-page/
 
-## Recommended IDE Setup
+## Local Installation
+- `` git clone https://github.com/FahimAnzamDip/vue-landing-page.git ``
+- `` cd /path/to/project ``
+- `` npm install ``
+- `` npm run dev ``
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Screenshot
+![vue-landing-page](screenshot.png)
